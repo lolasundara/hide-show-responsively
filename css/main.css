@@ -1,8 +1,8 @@
-@-moz-viewport { width: device-width; scale: 1;}
-@-ms-viewport { width: device-width; scale: 1;}
-@-o-viewport { width: device-width; scale: 1;}
-@-webkit-viewport { width: device-width; scale: 1;}
-@viewport {width: device-width; scale: 1;}
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
 
 html {
   -moz-text-size-adjust: 100%;
@@ -19,7 +19,7 @@ html {
 
 img {
   width: 100%;
-  margin-bottom: .25em;
+  margin-bottom: .0125em;
 }
 
 img:nth-child(2) {
@@ -31,6 +31,7 @@ img:nth-child(4) {
 }
 
 @media only screen and (min-width: 25em) {
+
   body {
     margin-right: .01em;
   }
@@ -42,9 +43,9 @@ img:nth-child(4) {
   }
 
   img:nth-child(2) {
-  display: inline-block;
-  width: 48%;
-}
+    display: inline-block;
+    width: 48%;
+  }
 
   img:nth-child(4) {
     display: inline-block;
@@ -53,6 +54,7 @@ img:nth-child(4) {
 }
 
 @media only screen and (min-width: 38em) {
+
   body {
     margin-left: 1em;
   }
@@ -65,7 +67,7 @@ img:nth-child(4) {
     display: none;
   }
 
-  img:nth-child(2){
+  img:nth-child(2) {
     width: 32%;
   }
 
@@ -80,6 +82,7 @@ img:nth-child(4) {
 }
 
 @media only screen and (min-width: 60em) {
+
   img {
     width: 24%;
   }
