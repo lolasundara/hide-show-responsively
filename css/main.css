@@ -53,7 +53,6 @@ img:nth-child(4) {
 }
 
 @media only screen and (min-width: 38em) {
-
   body {
     margin-left: 1em;
   }
@@ -74,4 +73,26 @@ img:nth-child(4) {
     width: 32%;
   }
 
+}
+
+@media only screen and (min-width: 60em) {
+  img:nth-child(2) {
+    display: inline-block;
+    width: 24%;
+  }
+
+  img:nth-child(3) {
+    display: inline-block;
+    width: 24%;
+  }
+
+  img:nth-child(4) {
+    display: inline-block;
+    width: 24%;
+  }
+
+  img:first-of-type {
+    display: inline-block;
+    width: 24%;
+  }
 }
