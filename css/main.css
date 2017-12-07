@@ -84,30 +84,31 @@ img:nth-child(4) {
 @media only screen and (min-width: 60em) {
 
   body {
-    margin-left: 1.75em;
+    margin-left: 1.67em;
+    margin-right: 1.2em;
   }
 
   img {
-    width: 24%;
+    width: 24.5%;
   }
 
   img:nth-child(2) {
     display: inline-block;
-    width: 24%;
+    width: 24.5%;
   }
 
   img:nth-child(3) {
     display: inline-block;
-    width: 24%;
+    width: 24.5%;
   }
 
   img:nth-child(4) {
     display: inline-block;
-    width: 24%;
+    width: 24.5%;
   }
 
   img:first-of-type {
     display: inline-block;
-    width: 24%;
+    width: 24.5%;
   }
 }
